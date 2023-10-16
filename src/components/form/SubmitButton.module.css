@@ -1,0 +1,15 @@
+.btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.7rem 1.2rem;
+    text-decoration: none;
+    transition: .5s;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: var(--secondary-color);
+}

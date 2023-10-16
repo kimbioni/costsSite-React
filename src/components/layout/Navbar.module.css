@@ -1,0 +1,36 @@
+.header {
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.list li {
+    text-decoration: none;
+    color: black;
+}
+
+.item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.item a:hover {
+    color: #ffbb33;
+}
+

@@ -1,0 +1,93 @@
+.project_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    padding: 1rem;
+    border: 1px solid #7a7a7a;
+    border-radius: .3125rem;
+}
+
+.project_card_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project_card h4 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: .2rem .2rem 0 0;
+    padding: 0.4rem;
+    font-size: 1.3rem;
+}
+
+.project_card p {
+    color: #7a7a7a;
+}
+
+.project_card span {
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.category_text span {
+    display: inline-block;
+    height: .75rem;
+    width: .75rem;
+    border-radius: 50%;
+    background-color:#ccc;
+    margin-right: .3125rem;
+}
+
+.category_text .infra {
+    background-color: #FFAEBC;
+}
+
+.category_text .desenvolvimento {
+    background-color: #A0E7E5;    
+}
+
+.category_text .design {
+    background-color: #B4F8C8;
+}
+
+.category_text .planejamento {
+    background-color: #FBE7C6;
+}
+
+.project_card_actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project_card_actions a,
+.project_card_actions button {
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    font-size: .9rem;
+    padding: .6rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.project_card_actions svg {
+    margin-right: .5rem;
+}
+
+.project_card_actions a:hover,
+.project_card_actions button:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+}

@@ -1,0 +1,21 @@
+.project_container {
+    width: 100%;
+    padding: 2rem;
+}
+
+.title_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 600px)
+{
+  .title_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+   
+}

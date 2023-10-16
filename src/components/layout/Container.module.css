@@ -1,0 +1,19 @@
+.container {
+    margin: 0 auto;
+    max-width: 75rem;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.start {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(19rem, auto));
+    gap: 1rem;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
